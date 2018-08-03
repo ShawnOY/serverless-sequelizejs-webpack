@@ -1,3 +1,10 @@
-node_modules/
-*.swp
-*.*~
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# VIM & EMACS
+.swp
+.*~
