@@ -5,13 +5,16 @@
   "author": "shawnoy@outlook.com",
   "license": "MIT",
   "devDependencies": {
+    "sequelize-cli": "^4.0.0",
     "serverless": "^1.29.2",
+    "serverless-offline": "^3.25.6",
     "serverless-webpack": "^5.2.0",
     "webpack": "^4.16.4",
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "serverless-offline": "^3.25.6",
-    "source-map-support": "^0.5.6"
+    "sequelize": "^4.38.0",
+    "source-map-support": "^0.5.6",
+    "sqlite3": "^4.0.2"
   }
 }
