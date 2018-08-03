@@ -1,0 +1,17 @@
+{
+  "name": "serverless-sequelize-webpack",
+  "version": "1.0.0",
+  "repository": "https://github.com/ShawnOY/serverless-sequelize-webpack.git",
+  "author": "shawnoy@outlook.com",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^1.29.2",
+    "serverless-webpack": "^5.2.0",
+    "webpack": "^4.16.4",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "serverless-offline": "^3.25.6",
+    "source-map-support": "^0.5.6"
+  }
+}
