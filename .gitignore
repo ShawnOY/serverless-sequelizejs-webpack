@@ -8,3 +8,9 @@ jspm_packages
 # VIM & EMACS
 .swp
 .*~
+
+# Webpack
+.webpack
+
+# SQLite
+*.sqlite3
