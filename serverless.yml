@@ -1,4 +1,12 @@
 service: serverless-sequelize-webpack
+custom:
+  webpack: 
+    webpackConfig: webpack.config.js
+    includeModules:
+      forceInclude:
+        - pg
+        - pg-hstore
+    packager: yarn
 
 plugins:
   - serverless-webpack
