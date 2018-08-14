@@ -1,6 +1,8 @@
 const path = require('path')
+const webpack = require('webpack')
 const slsw = require('serverless-webpack')
 const nodeExternals = require('webpack-node-externals')
+const env = process.env.NODE_ENV || 'development'
 
 module.exports = {
   entry: slsw.lib.entries,
@@ -14,6 +16,11 @@ module.exports = {
   },
   devtool: 'nosources-source-map',
   externals: [nodeExternals()],
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(env)
+    })
+  ],
   // module: {
   //   rules: [
   //     {
