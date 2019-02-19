@@ -21,19 +21,15 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify(env)
     })
   ],
-  // module: {
-  //   rules: [
-  //     {
-  //       test: /\.js$/,
-  //       exclude: /node_modules/,
-  //       use: [
-  //         {
-  //           loader: 'babel-loader'
-  //         }
-  //       ]
-  //     }
-  //   ]
-  // },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      }
+    ]
+  },
   output: {
     libraryTarget: 'commonjs2',
     path: path.join(__dirname, '.webpack'),
