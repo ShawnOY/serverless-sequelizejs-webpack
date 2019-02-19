@@ -4,6 +4,9 @@
   "repository": "https://github.com/ShawnOY/serverless-sequelize-webpack.git",
   "author": "shawnoy@outlook.com",
   "license": "MIT",
+  "scripts": {
+    "offline": "serverless offline"
+  },
   "devDependencies": {
     "sequelize-cli": "^4.0.0",
     "serverless": "^1.29.2",
