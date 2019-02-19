@@ -2,7 +2,7 @@
 
 const models = require('./models')
 
-module.exports.hello = async (event, context, callback) => {
+export const hello = async (event, context, callback) => {
   let users = null
 
   try {
