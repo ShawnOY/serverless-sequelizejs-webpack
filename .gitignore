@@ -6,11 +6,13 @@ jspm_packages
 .serverless
 
 # VIM & EMACS
-.swp
-.*~
+*.swp
+*.*~
 
 # Webpack
 .webpack
 
 # SQLite
 *.sqlite3
+
+dist/
