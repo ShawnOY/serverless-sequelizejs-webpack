@@ -1,17 +1,18 @@
 'use strict'
 
-import models from '../models'
+const models = require('../models')
 
 export const hello = async (event: object, context: object, callback: Function) => {
-  let users = null
+  let users: object[] = null
 
   try {
     users = await models.User.findAll()
-  } catch (err) {
-
+    console.log(users)
+  } catch (error) {
+    console.log(error.message)
   }
 
-  const response = {
+  const response: object = {
     statusCode: 200,
     body: JSON.stringify({
       users: users
