@@ -1,6 +1,6 @@
 'use strict'
 
-const models = require('./models')
+import models from './models'
 
 export const hello = async (event, context, callback) => {
   let users = null
