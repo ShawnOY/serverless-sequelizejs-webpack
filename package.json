@@ -5,6 +5,7 @@
   "author": "shawnoy@outlook.com",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "offline": "serverless offline"
   },
   "devDependencies": {
