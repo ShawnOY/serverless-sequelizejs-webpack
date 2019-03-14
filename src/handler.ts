@@ -2,7 +2,7 @@
 
 import models from '../models'
 
-export const hello = async (event, context, callback) => {
+export const hello = async (event: object, context: object, callback: Function) => {
   let users = null
 
   try {
