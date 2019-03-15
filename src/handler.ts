@@ -7,9 +7,11 @@ export const hello = async (event: object, context: object, callback: Function) 
 
   try {
     users = await models.User.findAll()
-    console.log(users)
   } catch (error) {
-    console.log(error.message)
+    return {
+      statusCode: 500,
+      body: error.message
+    }
   }
 
   const response: object = {
