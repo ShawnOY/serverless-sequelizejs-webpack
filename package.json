@@ -9,25 +9,25 @@
     "offline": "serverless offline"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/plugin-transform-runtime": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/runtime": "^7.3.4",
-    "babel-loader": "^8.0.5",
-    "sequelize-cli": "^5.4.0",
-    "serverless": "^1.38.0",
-    "serverless-offline": "^4.9.0",
-    "serverless-webpack": "^5.2.0",
-    "standard": "^12.0.1",
-    "typescript": "^3.3.3333",
-    "webpack": "^4.29.6",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "sequelize-cli": "^5.5.1",
+    "serverless": "^1.53.0",
+    "serverless-offline": "^5.12.0",
+    "serverless-webpack": "^5.3.1",
+    "standard": "^14.3.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "pg": "^7.8.2",
-    "pg-hstore": "^2.3.2",
-    "sequelize": "^5.8.6",
-    "source-map-support": "^0.5.11",
-    "sqlite3": "^4.0.2"
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.4",
+    "source-map-support": "^0.5.13",
+    "sqlite3": "^4.1.0"
   }
 }
