@@ -4,20 +4,8 @@ This is a example about how to use Serverless Framework with Sequelize.js, Webpa
 
 # How to use
 
-## Initial the project
-
 ```shell
-pnpm install
-```
-
-## Build
-
-```shell
-pnpm run build
-```
-
-## Run the local testing server
-
-```shell
-pnpm run offline
+yarn install
+yarn build
+yarn offline
 ```
