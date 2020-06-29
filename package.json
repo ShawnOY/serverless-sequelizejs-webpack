@@ -14,9 +14,9 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/runtime": "^7.9.2",
     "babel-loader": "^8.1.0",
-    "sequelize-cli": "^5.5.1",
+    "sequelize-cli": "^6.1.0",
     "serverless": "^1.67.3",
-    "serverless-offline": "^5.12.1",
+    "serverless-offline": "^6.4.0",
     "serverless-webpack": "^5.3.1",
     "standard": "^14.3.3",
     "typescript": "^3.8.3",
@@ -24,9 +24,9 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "pg": "^7.18.2",
+    "pg": "^8.2.1",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.21.6",
+    "sequelize": "^6.2.3",
     "source-map-support": "^0.5.16",
     "sqlite3": "^4.1.1"
   }
