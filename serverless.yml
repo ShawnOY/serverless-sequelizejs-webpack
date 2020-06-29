@@ -6,7 +6,7 @@ custom:
       forceInclude:
         - pg
         - pg-hstore
-    packager: yarn
+    packager: npm
 
 plugins:
   - serverless-webpack
