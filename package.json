@@ -9,10 +9,10 @@
     "offline": "serverless offline"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-transform-runtime": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "@babel/runtime": "^7.9.2",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/runtime": "^7.10.3",
     "babel-loader": "^8.1.0",
     "sequelize-cli": "^6.1.0",
     "serverless": "^1.67.3",
